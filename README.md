@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mohit Pawar aka wizminar</h1>
-<h3 align="left">Aspiring Cybersecurity Student exploring privacy engineering, web security, authentication systems, and applied cryptography through hands-on projects.</h3> <br>
+<h3 align="left">Cybersecurity major exploring privacy engineering, web security, authentication systems, and applied cryptography through hands-on projects.</h3> <br>
 <h3 aligh="left">Currently Exploring </h3> 
   
 • Linux Fundamentals <br>
