@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wizminar</title>
+  <meta name="description" content="Mohit (Wizminar): IIT Kanpur '30. Cybersecurity student at IIT Kanpur. First batch of B.Cyber. I build web security tools and talk about tech.">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/png" href="assets/wiz-cutout.png">
+  <meta property="og:title" content="Wizminar">
+  <meta property="og:description" content="Cybersecurity student at IIT Kanpur. Builder and creator who talks about tech.">
+  <meta property="og:image" content="assets/wiz-bottle.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- grain overlay -->
+  <svg class="grain" aria-hidden="true"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(#n)"/></svg>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="element" aria-label="Wizminar, back to top">
+      <span class="element__num">144</span>
+      <span class="element__sym">Wz</span>
+      <span class="element__name">Wizminar</span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#channel">Channel</a>
+      <a href="#contact" class="nav__cta">Say hi</a>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ SPLASH ============ -->
+    <section class="splash" id="top" aria-label="Intro">
+      <div class="cover-box" aria-label="Issue 1, 2026, free">
+        <span class="cover-box__no">No.<b>1</b></span>
+        <span class="cover-box__meta"><span>Nov 2026</span><span>Free, forever</span></span>
+      </div>
+
+      <div class="stage" data-depth="0.6">
+        <div class="panel panel--hero">
+          <img class="panel__city" src="assets/wiz-city.jpg" alt="">
+          <div class="speedlines" aria-hidden="true"></div>
+          <div class="halftone halftone--corner" aria-hidden="true"></div>
+        </div>
+        <img class="hero-wiz" src="assets/wiz-cutout.png" alt="Wiz, a lanky figure in a wide-brimmed hat with a cigarette">
+        <div class="bubble bubble--hero" data-depth="0.8">
+          <p>yo. i'm wiz.</p>
+        </div>
+      </div>
+
+      <h1 class="wordmark" data-depth="-0.4"><span class="sr-only">Wizminar</span><span aria-hidden="true">Wizminar</span></h1>
+
+      <div class="caption caption--hero">
+        <p>Hey, this is Mohit, a cybersecurity major at IIT Kanpur.</p>
+      </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="work" id="work" aria-labelledby="work-title">
+      <header class="section-head">
+        <h2 id="work-title">Things I shipped</h2>
+        <p class="section-head__note">Live, free, and on GitHub.</p>
+      </header>
+
+      <div class="grid">
+        <article class="card card--a">
+          <div class="card__art card__art--permute" aria-hidden="true">
+            <span>.png</span><span>.webp</span><span>.pdf</span><span>.mp3</span>
+          </div>
+          <div class="card__body">
+            <h3>Permute</h3>
+            <p>Convert files from one format to another in the browser. Nothing gets uploaded.</p>
+            <div class="card__links">
+              <a href="https://permute.mohitupawar.com/" target="_blank" rel="noopener">Open Permute</a>
+              <a href="https://github.com/Wizminar/permute" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--b">
+          <div class="card__art card__art--cipher" aria-hidden="true">
+            <code data-entropy>k#9vQ!r2&amp;Lp</code>
+            <div class="meter"><i></i></div>
+          </div>
+          <div class="card__body">
+            <h3>Cipher</h3>
+            <p>Type a password and see how strong it is. Strength is measured in bits of entropy, and Cipher checks breach lists without your password ever leaving the page.</p>
+            <div class="card__links">
+              <a href="https://cipher.mohitupawar.com" target="_blank" rel="noopener">Open Cipher</a>
+              <a href="https://github.com/Wizminar/Cipher" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--c">
+          <div class="card__art card__art--sentinel" aria-hidden="true">
+            <ul>
+              <li class="ok">strict-transport-security</li>
+              <li class="ok">x-content-type-options</li>
+              <li class="bad">content-security-policy</li>
+              <li class="bad">permissions-policy</li>
+            </ul>
+          </div>
+          <div class="card__body">
+            <h3>Sentinel</h3>
+            <p>Paste a URL to check its HTTP security headers. Each missing header comes with a plain-English explanation of the risk.</p>
+            <div class="card__links">
+              <a href="https://sentinel.mohitupawar.com/" target="_blank" rel="noopener">Open Sentinel</a>
+              <a href="https://github.com/Wizminar/Sentinel" target="_blank" rel="noopener">Source</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--e">
+          <div class="card__body">
+            <p class="marker">team build at Product Hunt '26, IITK</p>
+            <h3>HunarHub</h3>
+            <p>A marketplace for small freelance jobs in India: pay in rupees over UPI, filter by deadline, and money sits in escrow until you approve the work. My team, The Matrix, built the MVP in an hour (and won the scavenger hunt on the side).</p>
+            <div class="card__links">
+              <a href="https://hunarhub1.netlify.app" target="_blank" rel="noopener">See the MVP</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--d">
+          <div class="card__body">
+            <p class="marker">currently reading…</p>
+            <h3>Cybersec pilot</h3>
+            <p>My notes from learning security, written in public as I go.</p>
+            <div class="card__links">
+              <a href="https://github.com/Wizminar/cybersec-pilot" target="_blank" rel="noopener">Read the notes</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ ORIGIN ============ -->
+    <section class="origin" id="about" aria-labelledby="origin-title">
+      <div class="origin__art">
+        <img src="assets/wiz-bottle.jpg" alt="Wiz drinking from a bottle under orange neon signs" loading="lazy" width="1080" height="360">
+        <div class="bubble bubble--small"><p>every site has a weak spot. i go looking.</p></div>
+      </div>
+
+      <div class="origin__text">
+        <h2 id="origin-title">About me</h2>
+        <div class="caption"><p>I'm Mohit Pawar, in the first-ever B.Cyber batch at IIT Kanpur, class of 2030.</p></div>
+        <p>I like knowing how things work under the hood: computer systems, Linux, programming, and security most of all. When I learn something, I build a tool with it. When I build something, I post about it.</p>
+        <p>Off the screen, I'm a Senator (BT/BS Y26) at the Students' Gymkhana, and I turn up to every puzzle hunt and hackathon on campus.</p>
+        <p>Wizminar is my tech brand, where all of it lives: the projects, the videos and the notes. It's a record of me figuring things out in public.</p>
+
+        <dl class="table">
+          <div class="tile" data-n="1"><dt>Cy</dt><dd>Cybersec</dd></div>
+          <div class="tile" data-n="6"><dt>Lx</dt><dd>Linux</dd></div>
+          <div class="tile" data-n="14"><dt>Sy</dt><dd>Systems</dd></div>
+          <div class="tile" data-n="80"><dt>Pg</dt><dd>Programming</dd></div>
+          <div class="tile" data-n="144"><dt>Ct</dt><dd>Content</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ LORE ============ -->
+    <section class="lore" id="lore" aria-labelledby="lore-title">
+      <header class="section-head">
+        <h2 id="lore-title">The lore</h2>
+        <p class="section-head__note">How a game username became a tech brand.</p>
+      </header>
+
+      <ol class="strip">
+        <li class="frame frame--1">
+          <span class="frame__when">Age 11</span>
+          <p class="frame__caption marker">A kid needs a username.</p>
+          <p>I mashed some letters together for a video game account. "WizMinar" was random, but unique enough to not be taken.</p>
+          <div class="bubble bubble--q"><p>what does it mean?</p></div>
+          <div class="bubble bubble--a"><p>no idea. still don't.</p></div>
+        </li>
+        <li class="frame frame--2">
+          <span class="frame__when">Jul 2020</span>
+          <p class="frame__caption marker">The channel goes live.</p>
+          <p>WizMinar on YouTube: gaming, unscripted moments and a lot of chaos, with a guy as clueless about his own brand as you are.</p>
+        </li>
+        <li class="frame frame--3">
+          <span class="frame__when">2021</span>
+          <p class="frame__caption marker">First websites.</p>
+          <img src="assets/2021-first-site.gif" alt="Screen recording of one of my first websites, built in 2021" loading="lazy" width="320" height="180">
+          <p>A games page, a fake airline, a travel site, a fashion blog. Rough HTML and CSS, but they worked.</p>
+        </li>
+        <li class="frame frame--4">
+          <span class="frame__when">2026</span>
+          <p class="frame__caption marker">IIT Kanpur, batch one.</p>
+          <p>I joined the first-ever B.Cyber batch: about 30 people and no seniors to follow. We sat down with the Director and C3iHub, then got told to draw the path ourselves.</p>
+        </li>
+        <li class="frame frame--5">
+          <span class="frame__when">Now</span>
+          <p class="frame__caption marker">The name finally has a job.</p>
+          <p>WizMinar is my tech brand now: security tools, systems, Linux and videos about what I'm learning. I still don't know what the name means, and that's half the fun.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CHANNEL ============ -->
+    <section class="channel" id="channel" aria-labelledby="channel-title">
+      <div class="tear" aria-hidden="true"></div>
+      <h2 id="channel-title" class="channel__title">Find me as <span class="marker">@wizminar</span></h2>
+      <ul class="socials">
+        <li><a class="social social--yt" href="https://youtube.com/@wizminar" target="_blank" rel="noopener"><span class="social__name">YouTube</span><span class="social__desc">Videos on what I'm building and learning</span></a></li>
+        <li><a class="social social--ig" href="https://instagram.com/wizminar" target="_blank" rel="noopener"><span class="social__name">Instagram</span><span class="social__desc">Short clips and progress posts</span></a></li>
+        <li><a class="social social--x" href="https://x.com/wizminar" target="_blank" rel="noopener"><span class="social__name">X</span><span class="social__desc">Thoughts as they happen</span></a></li>
+        <li><a class="social social--in" href="https://www.linkedin.com/in/mohitupawar/" target="_blank" rel="noopener"><span class="social__name">LinkedIn</span><span class="social__desc">Studies, work and the formal stuff</span></a></li>
+        <li><a class="social social--lc" href="https://leetcode.com/u/wizminar" target="_blank" rel="noopener"><span class="social__name">LeetCode</span><span class="social__desc">Problem-solving practice</span></a></li>
+        <li><a class="social social--gh" href="https://github.com/Wizminar" target="_blank" rel="noopener"><span class="social__name">GitHub</span><span class="social__desc">All the code</span></a></li>
+      </ul>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="bubble bubble--contact">
+        <h2 id="contact-title">Got an idea? Want to build something together?</h2>
+        <a class="email" href="mailto:wizminar144@gmail.com">wizminar144@gmail.com</a>
+        <button class="copy" type="button" data-copy="wizminar144@gmail.com">Copy email</button>
+        <p class="copy__status" role="status" aria-live="polite"></p>
+      </div>
+      <img class="contact__wiz" src="assets/wiz-cutout.png" alt="" loading="lazy">
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__tbc marker">To be continued…</p>
+    <p class="footer__meta">© <span data-year>2026</span> Wizminar. Built by hand by Mohit.</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
